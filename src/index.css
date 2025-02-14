@@ -1,1 +1,17 @@
+/* Custom Font -- Roboto & Lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme{
+    /* Theme Colors */
+    --color-light: #F8F8F8;
+    --color-black: #1E1E1E;
+    --color-gray: #8F8F8F;
+    --color-gray_v2: #9F9F9F;
+    --color-blue: #1677BD;
+    --color-orange: #E8A641;
+
+    /* Fonts */
+    --font-lexend: "Lexend", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+}
