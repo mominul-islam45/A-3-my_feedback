@@ -3,7 +3,7 @@ import { cn } from '../../lib/utilities/cn'
 
 const Title = ({children, className}) => {
   return (
-    <h2 className={cn(' font-onest font-bold text-dark text-[26px] leading-[33px]', className)}>
+    <h2 className={cn(' font-lexend font-extrabold text-black text-[24px] md:text-[32px] leading-[32px] md:leading-[40px]', className)}>
         {children}
     </h2>
   )
