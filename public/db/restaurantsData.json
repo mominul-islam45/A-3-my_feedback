@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Bella Italia",
+    "description": "Authentic Italian cuisine with a cozy atmosphere. Enjoy traditional dishes made from fresh ingredients in a charming setting.",
+    "rating": 4.6,
+    "total_ratings": 490,
+    "img": ["imgs/image1.jpg", "imgs/image2.jpg", "imgs/image3.jpg", "imgs/image4.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 2,
+    "name": "Little Shucker",
+    "description": "Fresh seafood and oysters in a casual setting. Experience the finest selection of shellfish paired with refreshing drinks.",
+    "rating": 5.0,
+    "total_ratings": 558,
+    "img": ["imgs/image2.jpg", "imgs/image6.jpg", "imgs/image7.jpg", "imgs/image8.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 3,
+    "name": "Marafuku Ramen",
+    "description": "Authentic Japanese ramen with rich broth. Each bowl is crafted with slow-cooked broth and hand-pulled noodles.",
+    "rating": 3.0,
+    "total_ratings": 616,
+    "img": ["imgs/image3.jpg", "imgs/image10.jpg", "imgs/image11.jpg", "imgs/image12.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 4,
+    "name": "Bottega",
+    "description": "Fine Italian dining with handmade pasta. A perfect spot to savor gourmet meals with an extensive wine selection.",
+    "rating": 4.8,
+    "total_ratings": 622,
+    "img": ["imgs/image4.jpg", "imgs/image14.jpg", "imgs/image15.jpg", "imgs/image16.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 5,
+    "name": "Arabia Nights",
+    "description": "Traditional Middle Eastern cuisine with live music. Enjoy aromatic spices and authentic dishes in a lively setting.",
+    "rating": 4.2,
+    "total_ratings": 413,
+    "img": ["imgs/image5.jpg", "imgs/image1.jpg", "imgs/image2.jpg", "imgs/image3.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 6,
+    "name": "Lokma",
+    "description": "Delicious Turkish street food and desserts. Indulge in rich flavors, from kebabs to sweet baklava treats.",
+    "rating": 4.4,
+    "total_ratings": 768,
+    "img": ["imgs/image6.jpg", "imgs/image4.jpg", "imgs/image5.jpg", "imgs/image6.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 7,
+    "name": "The Snug",
+    "description": "A cozy pub with a selection of craft beers and comfort food. The warm ambiance makes it a great spot to unwind with friends.",
+    "rating": 4.5,
+    "total_ratings": 754,
+    "img": ["imgs/image7.jpg", "imgs/image8.jpg", "imgs/image9.jpg", "imgs/image10.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 8,
+    "name": "Starbelly",
+    "description": "Modern bistro with fusion dishes and cocktails. A trendy eatery known for its unique flavors and stylish decor.",
+    "rating": 4.6,
+    "total_ratings": 635,
+    "img": ["imgs/image8.jpg", "imgs/image11.jpg", "imgs/image12.jpg", "imgs/image13.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 9,
+    "name": "Iori",
+    "description": "Japanese fine dining with sushi and kaiseki dishes. Immerse yourself in an elegant setting with expertly prepared cuisine.",
+    "rating": 3.0,
+    "total_ratings": 522,
+    "img": ["imgs/image9.jpg", "imgs/image14.jpg", "imgs/image15.jpg", "imgs/image16.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 10,
+    "name": "Ngalley",
+    "description": "African-inspired cuisine with bold flavors and spices. Experience a mix of traditional and contemporary dishes from across the continent.",
+    "rating": 3.5,
+    "total_ratings": 576,
+    "img": ["imgs/image10.jpg", "imgs/image1.jpg", "imgs/image2.jpg", "imgs/image3.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 11,
+    "name": "Diagonal",
+    "description": "Contemporary European cuisine with a modern twist. A refined menu featuring innovative dishes and fresh ingredients.",
+    "rating": 4.0,
+    "total_ratings": 535,
+    "img": ["imgs/image11.jpg", "imgs/image4.jpg", "imgs/image5.jpg", "imgs/image6.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 12,
+    "name": "Kitoko",
+    "description": "Fusion of Asian and Latin American flavors. A vibrant culinary journey combining the best of both worlds.",
+    "rating": 5.0,
+    "total_ratings": 451,
+    "img": ["imgs/image12.jpg", "imgs/image7.jpg", "imgs/image8.jpg", "imgs/image9.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 13,
+    "name": "Bottega Prime",
+    "description": "A high-end Italian eatery specializing in handcrafted pasta and premium wines. Experience the true taste of Italy in an elegant ambiance.",
+    "rating": 5.0,
+    "total_ratings": 678,
+    "img": ["imgs/image13.jpg", "imgs/image10.jpg", "imgs/image11.jpg", "imgs/image12.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 14,
+    "name": "Bottega Elite",
+    "description": "Exclusive gourmet dining with a focus on fresh, local ingredients. A sophisticated setting for those who appreciate fine cuisine.",
+    "rating": 5.0,
+    "total_ratings": 734,
+    "img": ["imgs/image14.jpg", "imgs/image13.jpg", "imgs/image15.jpg", "imgs/image16.jpg"],
+    "location": "Singapore"
+  },
+  {
+    "id": 15,
+    "name": "Bottega Royale",
+    "description": "A luxurious Italian restaurant offering an exquisite menu. From truffle-infused dishes to the finest wines, indulge in culinary perfection.",
+    "rating": 5.0,
+    "total_ratings": 702,
+    "img": ["imgs/image15.jpg", "imgs/image2.jpg", "imgs/image3.jpg", "imgs/image4.jpg"],
+    "location": "Paris"
+  },
+  {
+    "id": 16,
+    "name": "Bottega Grand",
+    "description": "A charming eatery combining traditional Italian recipes with modern twists. Experience bold flavors in a warm and inviting atmosphere.",
+    "rating": 5.0,
+    "total_ratings": 689,
+    "img": ["imgs/image16.jpg", "imgs/image6.jpg", "imgs/image7.jpg", "imgs/image8.jpg"],
+    "location": "Singapore"
+  }
+]
