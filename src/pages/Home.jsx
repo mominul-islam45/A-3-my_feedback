@@ -28,7 +28,7 @@ const Home = () => {
       <NavbarArea />
       <Container_1>
         {/* Tab bar */}
-        <div className="hidden md:block py-5">
+        <div className="hidden md:block pt-5 pb-8">
           <img src="imgs/tab_bar.png" alt="Tab bar" />
         </div>
         {/* Carousal */}

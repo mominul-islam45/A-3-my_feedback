@@ -4,7 +4,7 @@ const Footer = () => {
     const myFeedback = ['MyFeedback for business', 'Collections','Talk', 'Events', 'MyFeedback blog', 'Support','Developers']
   return (
     <div className='border-t border-t-gray/25 pt-5 pb-4 space-y-16'>
-        <div className='flex flex-col sm:flex-row gap-10 sm:gap-16 lg:gap-24 justify-center px-16'>
+        <div className='grid grid-cols-2 sm:grid-cols-3 gap-10 sm:gap-0 justify-center justify-items-center px-16'>
             <div className=' space-y-3'>
                 <h4 className='text-[20px] font-lexend font-extrabold leading-[25px]'>About</h4>
                 <p className='text-[14px] text-black/75'>About MyFeedback</p>

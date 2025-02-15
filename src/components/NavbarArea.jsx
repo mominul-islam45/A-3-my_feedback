@@ -15,7 +15,7 @@ import Search_Field from './Search_Field'
 const NavbarArea = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className=" pt-5 pb-2">
+    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" shouldHideOnScroll className=" pt-5 pb-2 border-b border-b-black/20">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
