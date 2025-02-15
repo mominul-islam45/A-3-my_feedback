@@ -40,7 +40,7 @@ const NavbarArea = () => {
       </NavbarContent>
 
       {/* Mobile Device */}
-      <NavbarMenu className=" space-y-4">
+      <NavbarMenu className=" space-y-4 mt-10">
         <NavbarMenuItem>
           <img src="icons/world.svg" alt="icon" className=" cursor-pointer hover:scale-110 transition-all"/>
         </NavbarMenuItem>
