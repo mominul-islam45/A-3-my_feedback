@@ -1,10 +1,10 @@
-import Button from '../components/common/Button'
 import React from 'react'
+import NavbarArea from '../components/NavbarArea'
 
 const Home = () => {
   return (
-    <div>Home
-      <Button>jjgdfsgdf gfssg</Button>
+    <div>
+      <NavbarArea/>
     </div>
   )
 }
