@@ -24,7 +24,7 @@ const Home = () => {
       const latest = data.filter(item => item.id <= 12)
       
   return (
-    <div>
+    <>
       <NavbarArea />
       <Container_1>
         {/* Tab bar */}
@@ -71,7 +71,7 @@ const Home = () => {
         <RecentActivity_Slider/>
       </Container_1>
       <Footer />
-    </div>
+    </>
   );
 };
 

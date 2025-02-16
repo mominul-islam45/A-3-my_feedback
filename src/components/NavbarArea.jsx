@@ -22,7 +22,7 @@ const NavbarArea = () => {
           className="md:hidden"
         />
         <NavbarBrand>
-          <Link><img src="logo.png" alt="Logo"/></Link>
+          <Link to='/'><img src="logo.png" alt="Logo"/></Link>
         </NavbarBrand>
       </NavbarContent>
 
