@@ -8,6 +8,7 @@ import Card_portrait from "../components/common/Card_portrait";
 import Title from "../components/common/Title";
 import Button from "../components/common/Button";
 import RecentActivity_Slider from "../components/common/RecentActivity_Slider";
+import { useNavigate } from "react-router";
 
 const Home = () => {
       // Fetching restaurant data from API
@@ -22,10 +23,23 @@ const Home = () => {
   
       // Filtering data for latest restaurants
       const latest = data.filter(item => item.id <= 12)
+
+      // For the overlay
+      const [isSearchFieldOpen, seIsSearchFieldOpen] = useState(false)
+      const onClickField = () =>{seIsSearchFieldOpen(true)}
+
+      const navigate = useNavigate()
+      
+      const onClickSearch = ()=>{
+        seIsSearchFieldOpen(false)
+        navigate('/search')
+      }
       
   return (
     <>
-      <NavbarArea />
+      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-15'></div>}
+
+      <NavbarArea onClickField={onClickField} onClickSearch={onClickSearch}/>
       <Container_1>
         {/* Tab bar */}
         <div className="hidden md:block pt-5 pb-8">

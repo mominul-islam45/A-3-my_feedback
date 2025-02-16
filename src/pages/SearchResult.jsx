@@ -15,6 +15,25 @@ const SearchResult = () => {
               setData(jsonData)
           })
   }, [])
+ 
+  // For the overlay
+  const [isSearchFieldOpen, seIsSearchFieldOpen] = useState(false)
+  const onClickField = () =>{seIsSearchFieldOpen(true)}
+
+  const [searchValue, setSearchValue] = useState('')
+  const onTypeName = (e) =>{
+    setSearchValue(e.target.value)
+  }
+
+  const [value, setValue] = useState('')
+  const onClickSearch = ()=>{
+    setValue(searchValue)
+    seIsSearchFieldOpen(false)
+  }
+
+  const filterOut = data.filter((data)=>{
+    return data.name.toLowerCase().includes(value)
+  })
 
   const sortItems = [
     { key: 'new', label: 'All feedbacks' },
@@ -24,7 +43,9 @@ const SearchResult = () => {
 
   return (
     <>
-      <NavbarArea/>
+      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-15'></div>}
+      
+      <NavbarArea onClickField={onClickField} onTypeName={onTypeName} onClickSearch={onClickSearch}/>
       <div className='grid grid-cols-1 lg:grid-cols-5 py-5'>
         <div className='px-4 lg:px-0 lg:pl-20 pb-10 col-span-3'>
           <div className='pb-5'>
@@ -44,7 +65,7 @@ const SearchResult = () => {
             </div>
           </div>
 
-          {data.map(({id, name, description, rating, total_ratings, img})=>(
+          {filterOut.map(({id, name, description, rating, total_ratings, img})=>(
             <Card_landscape id={id} img={img[0]} name={name} description={description} rating={rating} total_ratings={total_ratings}/>
           ))}
           <Button className='px-12'>Show more</Button>

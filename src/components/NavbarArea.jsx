@@ -12,7 +12,7 @@ import Button from './common/Button'
 import { Link } from "react-router";
 import Search_Field from './Search_Field'
 
-const NavbarArea = () => {
+const NavbarArea = ({onClickField, onTypeName, onTypePlace, onClickSearch}) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" shouldHideOnScroll className=" pt-5 pb-2 border-b border-b-black/20">
@@ -27,7 +27,7 @@ const NavbarArea = () => {
       </NavbarContent>
 
       <NavbarContent>
-        <Search_Field/>
+        <Search_Field onClickField={onClickField} onTypeName={onTypeName} onTypePlace={onTypePlace} onClickSearch={onClickSearch}/>
       </NavbarContent>
 
       <NavbarContent className="hidden md:flex gap-4" justify="end">
