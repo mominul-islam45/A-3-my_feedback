@@ -37,7 +37,7 @@ const Home = () => {
       
   return (
     <>
-      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-15'></div>}
+      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-25'></div>}
 
       <NavbarArea onClickField={onClickField} onClickSearch={onClickSearch}/>
       <Container_1>

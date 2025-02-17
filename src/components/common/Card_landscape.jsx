@@ -1,7 +1,14 @@
 import React from "react";
 import { Card, CardBody } from "@heroui/react";
+import { useNavigate } from "react-router";
 
 const Card_landscape = ({ id, img, name, description, rating, total_ratings,}) => {
+
+  const navigate = useNavigate()
+  const onHandleClick = ()=>{
+    navigate('/restaurant')
+  }
+  
   return (
     <>
     <Card key={id} className="bg-white rounded-xl flex-row mb-0">
@@ -12,7 +19,7 @@ const Card_landscape = ({ id, img, name, description, rating, total_ratings,}) =
       />
       <CardBody>
         <div>
-          <h4 className="text-lg font-semibold mb-2 cursor-pointer hover:underline underline-offset-3 decoration-2">
+          <h4 onClick={onHandleClick} className="text-lg font-semibold mb-2 cursor-pointer hover:underline underline-offset-3 decoration-2">
             {name}
           </h4>
           <p className="text-sm text-gray mb-6 mr-8">{description}</p>

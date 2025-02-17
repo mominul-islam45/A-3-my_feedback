@@ -43,7 +43,7 @@ const SearchResult = () => {
 
   return (
     <>
-      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-15'></div>}
+      {isSearchFieldOpen && <div onClick={()=>(seIsSearchFieldOpen(false))} className='z-20 absolute top-0 left-0 w-full h-screen bg-gray opacity-25'></div>}
       
       <NavbarArea onClickField={onClickField} onTypeName={onTypeName} onClickSearch={onClickSearch}/>
       <div className='grid grid-cols-1 lg:grid-cols-5 py-5'>

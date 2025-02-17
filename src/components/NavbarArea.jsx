@@ -21,7 +21,7 @@ const NavbarArea = ({onClickField, onTypeName, onTypePlace, onClickSearch}) => {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="md:hidden"
         />
-        <NavbarBrand>
+        <NavbarBrand                 >
           <Link to='/'><img src="logo.png" alt="Logo"/></Link>
         </NavbarBrand>
       </NavbarContent>
